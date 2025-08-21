@@ -36,7 +36,7 @@ body {
   width: 50%;
   height: 100%;
   color: #b7c4cf;
-  font-size: 40px;
+  font-size: clamp(1.5rem, 6vw, 2.5rem);
   position: absolute;
   font-family: "Roboto, Helvetica, Arial, sans-serif";
 }
@@ -153,7 +153,7 @@ body {
 .textTwo {
   color: #7d6e83;
   font-weight: bold;
-  font-size: 25px;
+  font-size: clamp(1.125rem, 4vw, 1.563rem);
   margin-top: 30px;
 }
 /* box */
@@ -173,10 +173,36 @@ body {
   background-image: url(bac.jpg);
   overflow: hidden;
   background-size: cover;
-  font-size: 18px;
+  font-size: clamp(0.875rem, 3vw, 1.125rem);
   font-family: "Roboto, Helvetica, Arial, sans-serif";
   transition: opacity 7s;
 }
 
+/* --- Aturan Untuk Layar HP --- */
+/* Aturan ini akan berlaku jika lebar layar 600px atau lebih kecil */
+@media (max-width: 600px) {
+  
+  /* Mengecilkan font pada 'pintu' kartu */
+  .card::before,
+  .card::after {
+    font-size: 24px; /* Dari 40px menjadi 24px */
+  }
+
+  /* Mengecilkan font pada teks utama kartu */
+  .card {
+    font-size: 1.8em; /* Dari 2.5em menjadi 1.8em */
+  }
+
+  /* Mengecilkan font pada teks kedua */
+  .textTwo {
+    font-size: 20px; /* Dari 25px menjadi 20px */
+  }
+
+  /* Mengecilkan font pada #box jika muncul */
+  #box {
+    font-size: 16px; /* Dari 18px menjadi 16px */
+  }
+
+}
 
 
