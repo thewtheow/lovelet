@@ -173,9 +173,10 @@ body {
   background-image: url(bac.jpg);
   overflow: hidden;
   background-size: cover;
-  font-size: 25px;
+  font-size: 18px;
   font-family: "Roboto, Helvetica, Arial, sans-serif";
   transition: opacity 7s;
 }
+
 
 
