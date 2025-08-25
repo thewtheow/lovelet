@@ -9,7 +9,7 @@ heart.addEventListener("click", function () {
 
   let i = 0;
   let str =
-    "Hi tinkerbell,<Kalo lo udah bisa baca tulisan ini, Tandanya lo sudah menerima seekor stitch betina yang berwarna pink , Terimakasih telah menerima barang tersebut ya^^, Semoga dengan kehadiran barang tersebut lo suka, bisa nemenin lo dan di jauhkan dari segala macam overthinking. Stay safe, Stay healthy and Stay with me xixixixixi,<Allahumma lakasumtu, i can't stop thinking about you,<Wabika amantu, my hear is on for you,<Wa'ala rizkika aftortu, in my heart of course only you.<Mie goreng mie kuah, muah-muah<See u next year<-Random Person-";
+    "Hi tinkerbell,<Kalo lo udah bisa baca tulisan ini, Tandanya lo sudah menerima seekor stitch betina yang berwarna pink , Terimakasih telah menerima barang tersebut ya^^, Semoga dengan kehadiran stitch ini lo suka, bisa nemenin lo bikin modul dan di jauhkan dari segala macam overthinking. Stay safe, Stay healthy and Stay with me xixixixixi,<Allahumma lakasumtu, i can't stop thinking about you,<Wabika amantu, my ears are on you,<Wa'ala rizkika aftortu, in my heart of course only you.<Mie goreng mie kuah, muah-muah<See u next year<-Random Person-";
   let strp = "";
 
   function print() {
@@ -36,4 +36,5 @@ heart.addEventListener("click", function () {
   }
   appearBackground();
 });
+
 
